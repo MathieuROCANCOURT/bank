@@ -30,4 +30,10 @@ public class Operation {
 		this.dateOp = dateOp;
 	}
 
+	@Override
+	public String toString() {
+		return "Operation [id=" + id + ", accountNumber=" + accountNumber + ", typeOp=" + typeOp + ", amount=" + amount
+				+ ", dateOp=" + dateOp + "]";
+	}
+
 }
